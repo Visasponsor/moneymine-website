@@ -2,20 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1024">
+    <meta name="description" content="Money Mine offers high-quality counterfeit pound banknotes that are visually identical to real currency. Our prop notes bypass all counterfiet tests and can be spent anywhere. can be spent an Offering the best fake UK pounds with fast, and discreet delivery. Trusted service with secure transactions. Buy Counterfiet uk notes from us." />
+    <meta name="keywords" content="Counterfiet banknotes, fake pounds, Fake banknotes for sale UK, counterfiet notes for sale, fake pounds, Counterfeit money UK, Buy fake currency UK, buy counterfeit bills UK,Fake UK pounds online, Counterfeit euros for sale, High-quality counterfeit notes UK, make money UK, trending, money" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Money Mine</title>
 
-    <style>
-        
 
-body {
+	<script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "FinancialService",
+	  "name": "Money Mine",
+	  "description": "Providing expert financial services, Counterfeit UK banknotes, fake pounds and investment opportunities",
+	  "url": "https://moneymine.co.uk"
+	}
+	</script>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MNWCTCY5CC"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-MNWCTCY5CC');
+	</script>
+
+    <style>
+        body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             max-width: 100%;
-            background-color: #f4f4f4;
-	    overflow-x: hidden; /* Prevent horizontal scroll */
+            background-color: #121212;
+            overflow-x: hidden; 
         }
 
         .flex {
@@ -23,18 +44,19 @@ body {
             align-items: center;
         }
 
+        /* Navigation Bar */
         .container1 {
             width: 100%;
             height: 60px;
-            color: white;
-            background-color: #333; /* Use a solid color for a more modern look */
+            background-color: #1d1d1d;
             text-align: center;
-            line-height: 60px; /* Center text vertically */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add subtle shadow for depth */
+            line-height: 60px;
             position: fixed;
-            top: 40px;
+            top: 0;
+            margin: 0;
             left: 0;
             z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
         }
 
         nav ul {
@@ -42,36 +64,42 @@ body {
             margin: 0;
             list-style: none;
             display: flex;
+            justify-content: center;
         }
 
         nav li {
-            margin: 0 10px;
+            margin: 0 20px;
         }
 
         nav a {
-            color: white; /* Match the text color with container1 */
-            text-decoration: none; /* Remove underline */
-            font-weight: 700; /* Make links bold for better visibility */
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s, transform 0.3s;
         }
 
         nav a:hover {
-            text-decoration: underline; /* Underline on hover for better UX */
+            color: #ff5722;
+            transform: scale(1.1);
         }
 
         nav a.active {
-    	background-color: #FF5722; /* Orange background */
-    	color: white; /* Text color */
-    	padding: 5px 10px; /* Padding */
-    	border-radius: 2px; /* Rounded corners */
-    	font-size: 20px; /* Font size */
+            background-color: #ff5722;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+	.container {
+	    display: flex;
+	    justify-content: space-around;
+	    flex-wrap: wrap;
+            padding: 0px 20px;
+	    margin: 20px auto;
+	    width: 80%; 
 	}
 
-        .container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            margin: 20px;
-        }
 
         .product {
             display: flex;
@@ -80,32 +108,39 @@ body {
             margin-bottom: 30px;
         }
 
-        .policy {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin-bottom: 10px;
-        }
+	.policy {
+	    display: flex;
+	    justify-content: space-between; 
+	    align-items: center; 
+	    margin-bottom: 10px;
+	    width: 100%; 
+	    
+	}
 
         .product-item {
-            width: 60%;
+            width: 100%; 
             border-radius: 10px;
             background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 50px #00ccff;
             margin: 10px;
             padding: 20px;
             text-align: center;
         }
 
-        .product-item1 {
-            width: 25%;
-            border-radius: 10px;
-            background-color: #FF8800;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: 10px;
-            padding: 20px;
-            text-align: center;
-        }
+	.product-item1 {
+flex-direction: row;
+	    flex: 1 1 calc(33.33% - 20px);
+	    margin: 10px; 
+	    border-radius: 10px;
+	    background-color: #FF8800;
+	    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	    height: 200px; 
+	    justify-content: center;
+	    align-items: center; 
+	    text-align: center;
+	    padding: 10px;
+	}
+
 
         .order-button {
             background-color: #4CAF50;
@@ -117,92 +152,47 @@ body {
             border-radius: 5px;
         }
 
-
-		.initial-column {
+        .final-column {
             width: 100%;
             height: 40px;
             color: white;
             background-color: black;
             display: flex;
-            justify-content: center; 
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 1000;
+            justify-content: center;
         }
 
-.social-media {
-    display: flex;
-    gap: 10px; /* Add space between the icons */
-    margin-right: 30px;
-    overflow: hidden;
-    flex: 0 0 auto;
-}
-
-.social-media img {
-    width: 25px;
-    height: 25px;
-margin-right: 10px;
-    object-fit: cover;
-}
-
-	.social-image {
-            width: 40px;
-            margin-right: 10px;
-            height: 40px; 
-        }
-
-	.final-column {
-            width: 100%;
-            height: 40px; 
-            color: white;
-            background-color: black;
-            display: flex;
-            justify-content: center; 
-        }
-
-
-        .shipping-info {
+        .shipping-info, .price-list {
             margin-top: 15px;
             text-align: left;
             font-size: 14px;
             color: #555;
         }
 
-        .price-list {
-            margin-top: 20px;
-            text-align: left;
-            padding: 5px;
-            font-size: 14px;
-            color: #555;
-        }
-
         .us11 {
-            padding-left: 50px;
-            padding-right: 50px;
+            padding-left: 20px; /* Adjusted for responsiveness */
+            padding-right: 20px; /* Adjusted for responsiveness */
             padding-top: 20px;
             padding-bottom: 20px;
+            margin: 0;
             color: #fff;
             background-color: #333;
-            max-width: 100%;
+            width: 100%;
             text-align: center;
         }
 
         .faq {
-            padding-left: 50px;
-            padding-right: 50px;
+            padding-left: 20px; /* Adjusted for responsiveness */
+            padding-right: 20px; /* Adjusted for responsiveness */
             padding-top: 20px;
-            max-width: 100%;
-            line-height: 1.8;
-            background-color: #F4F4F4;
-            text-align: center; 
             padding-bottom: 20px;
+            background-color: #F4F4F4;
+            text-align: center;
             margin: 0px;
         }
 
         table {
             width: 100%;
-            padding: 40px;
+            padding: 20px; /* Adjusted for responsiveness */
             margin-bottom: 40px;
             border-collapse: collapse;
         }
@@ -244,10 +234,9 @@ margin-right: 10px;
             padding: 10px;
             border: 1px solid #929292;
             border-radius: 5px;
-            max-width: 600px; /* Adjusted max-width for responsiveness */
-            width: 100%;
-            margin: 30px auto; /* Updated margin for vertical alignment and centered horizontally */
-            box-sizing: border-box; /* Include padding and border in the total width */
+            width: 100%; 
+            margin: 20px auto;
+            box-sizing: border-box;
         }
 
         form {
@@ -255,52 +244,34 @@ margin-right: 10px;
             justify-content: center;
             display: flex;
             flex-wrap: wrap;
-            max-width: 600px;
+            width: 100%;
         }
 
-        .form-group1 {
+        .form-group1, .warn-group, .form-group3 {
             width: 100%;
         }
 
 	.warn-group {
-            width: 100%;
-	    font-size: 12px;
 	    color: red;
-	    text-align: center;
+	}
+
+        .form-group, .form-group2 {
+            width: 100%; 
+            margin-bottom: 10px;
         }
 
-        .form-group {
-            width: calc(50% - 5px); /* Two columns with a 20px gap in between */
-            margin-right: 2px;
-            margin-left: 2px;
-        }
-
-        .form-group:last-child {
-            margin-left: 5px;
-        }
-
-        input, select, textarea {
+        input, select {
             width: 100%;
             padding: 10px;
             margin: 5px 0;
             box-sizing: border-box;
         }
 
-        .form-group3 {
-            width: 100%;
+        textarea {
+            display: none;
         }
 
-        .form-group2 {
-            width: calc(50% - 5px); /* Two columns with a 20px gap in between */
-            margin-right: 2px;
-            margin-left: 2px;
-        }
-
-        .form-group2:last-child {
-            margin-left: 5px;
-        }
-
-        .whatsapp-btn {
+        .whatsapp-btn, .whatsapp-btn2 {
             background-color: #4caf50;
             color: #fff;
             width: 100%;
@@ -312,100 +283,134 @@ margin-right: 10px;
             cursor: pointer;
         }
 
-	.happy-clients {
-	    width: 100%;
-	    text-align: center;
-        }
-	
-	
-
-        .whatsapp-btn:hover {
+        .whatsapp-btn:hover, .whatsapp-btn2:hover {
             background-color: #45a049;
         }
 
-        .whatsapp-btn2 {
-            background-color: #4caf50;
-            color: #fff;
+        .mid-topic {
+            background-color: #1a1a1a;
             width: 100%;
-	    margin-top: 5px;
-	    font-size: 17px;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
+            color: #fff;
+	    padding: 5px 20px;
+	    margin-top: 90px;
+            text-align: center;
+        }
+.landing-text {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.7);
+    padding: 40px 20px;
+    position: relative; 
+}
+
+.landing-text div {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-text h1, .landing-text h2 {
+    margin: 0;
+}
+        .landing-text h1 {
+            font-size: 60px; 
+            color: #ff5722;
+	    font-family: 'Playfair Display', serif;
+            margin-bottom: 20px;
         }
 
-        .whatsapp-btn2:hover {
-            background-color: #45a049;
+        .landing-text h2 {
+            font-size: 20px; 
+            color: #fff;
+            margin-bottom: 20px;
         }
 
-	.mid-topic {
-	    background-color: #000;
-	    width: 100%;
-	    color: #fff;
-	    padding-top: 5px;
-	    padding-bottom: 5px;
-	    text-align: center;
-	}
-	
-	.landing-text {
-	    position: relative;
-	    background-color: #000;
-	    width: 100%;
-	    height: 550px;
-	    color: #fff;
-	    text-align: center;
-	}
-
-	.landing-text-position {
-	    position: relative;
-            top: 50%;
-            left: 50%;
-	    padding-top: 5px;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-size: 24px;
-            font-family: 'Roboto', sans-serif;
-
-	}
 
 	.about-us-form {
 	    background-color: #fff;
             line-height: 1.6;
 	    padding: 20px;
 	    border: 1px solid #929292;
+	    box-shadow: 0 0 50px #00ccff;
 	    border-radius: 5px;
-	    /* Adjusted max-width for responsiveness */
-	    max-width: 100%;
-	    margin: 100px; /* Updated margin for vertical alignment and centered horizontally */
-	    box-sizing: border-box; /* Include padding and border in the total width */
+	    width: 90%;
+	    margin: 20px; 
+	    box-sizing: border-box; 
 	}
 
-	.scroll-container {
-    	    display: flex;
-    	    overflow-x: auto;
-    	    padding: 20px;
-    	    background-color: #333;
-    	    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    	    white-space: nowrap;
-    	    scrollbar-width: none; /* Firefox */
-    	    -ms-overflow-style: none; /* Internet Explorer 10+ */
-	}
 
-	.scroll-container::-webkit-scrollbar {
-    	   display: none; /* WebKit browsers */
-	}
+        .scroll-container {
+            display: flex;
+            overflow-x: auto;
+            width: 100%;
+            padding: 20px;
+            background-color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            white-space: nowrap;
+            scrollbar-width: none;
+        }
+
+        .scroll-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scroll-item {
+            flex: 0 0 auto;
+            width: 150px;
+            height: 200px;
+            margin-right: 20px;
+            background-color: #fff;
+            border: 1px solid #333;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .scroll-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        label {
+            color: #415161;
+            display: block;
+            margin-top: 3px;
+            text-align: left;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+	.happy-clients {
+            width: 100%;
+            color: #fff;
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0px 20px;
+        }
+
 
 	.container-review {
-            width: 80%;
-            margin: 20px auto;
-        }
+	    width: 100%;
+            align-items: center;
+	}
+
 	.review {
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: 20px 0;
-            padding: 20px;
+            margin: 20px 50px;
+            padding: 20px 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -434,75 +439,282 @@ margin-right: 10px;
             margin-bottom: 10px;
         }
 
-        .notes {
-            font-size: 16px;
-        }
-	.section {
-    	    padding-top: 100px; /* Adjust to match the height of the .tel element + some extra space */
-	    z-index: 999;
+
+	.whatsapp-button1 {
+	    position: fixed;
+	    width: 60px;
+	    height: 60px;
+	    bottom: 20px;
+	    right: 20px;
+	    background-color: #25d366;
+	    border-radius: 50%;
+	    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    z-index: 1000;
 	}
 
-.scroll-item {
-    flex: 0 0 auto;
-    width: 150px;
-    height: 200px;
-    margin-right: 20px;
-    background-color: #fff;
-    border: 1px solid #333;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
+	.whatsapp-button1:hover {
+	    background-color: #128c7e;
+	    transition: background-color 0.3s ease;
+	}
 
-.scroll-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-label {color: #415161;
-            display: block;
-            margin-top: 3px;
-text-align: left; /* Explicitly set text-align to left */
-            font-weight: bold;
-            font-size: 14px;
-        }
+	.whatsapp-icon1 {
+	    width: 35px;
+	    height: 35px;
+	}
 
-        #notes {
+	.final-column {
             width: 100%;
-            padding: 10px;
-            box-sizing: border-box;
-            margin-top: 10px;
-background-color: #f4f4f4;
+            height: 40px; 
+            color: white;
+            background-color: black;
+            display: flex;
+            justify-content: center; 
+        }
+
+        .faq {
+            padding: 20px 50px;
+            max-width: 100%;
+            line-height: 1.8;
+            background-color: #F4F4F4;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            padding: 40px;
+            margin-bottom: 40px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #9A9A9A;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .question {
+            cursor: pointer;
+        }
+
+        .answer {
+            display: none;
+        }
+
+        .plus-minus::before {
+            content: '+';
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .minus::before {
+            content: '-';
+        }
+
+	.ini-img {position: absolute; /* Allows precise positioning within the container */
+	    left: 0px; 
+	    bottom: 0px;
+	    height: 250px;
+	    width: auto; 
+	}
+
+	.ini-img img{
+	    width: 100%;
+	    height: 100%;
+	}
+
+
+@media (max-width: 768px) {
+        body {
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+            overflow-x: hidden; 
+        }
+
+        nav ul {
+	    margin-left: 10px;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+	    white-space: nowrap;
+	    overflow-x: auto;
+        }
+
+        nav li {
+    	    margin: 10px 0;
+	    white-space: nowrap; overflow-x: auto;
+    	}
+
+    	nav a {
+            font-size: 14px; 
+            padding: 10px 20px; 
+	    white-space: nowrap; overflow-x: auto;
+	
+    	}
+
+        nav a.active {
+            background-color: #ff5722;
+	    font-size: 14px; 
+            color: white;
+            border-radius: 5px;
+	    white-space: nowrap;  overflow-x: auto;
+        }
+
+       .container1 {
+            height: 50px; 
+            line-height: 50px; 
+       	    white-space: nowrap; overflow-x: auto;
+        }
+
+    
+	.container {
+	    display: flex;
+	    justify-content: space-around;
+	    flex-wrap: wrap;
+            padding: 0px 20px;
+	    margin: 20px auto; 
+	    width: 100%; 
+	}
+
+        .landing-text {
+            background-color: #1a1a1a;
+            width: 100%;
+            height: 200px; 
+            color: #fff;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.7);
+            padding: 20px 15px
+	    flex-direction: column;
+        }
+
+	.about-us-form {
+	    width: 100%;
+	 }
+
+	.ini-img {
+	    position: absolute; 
+	    left: 0px; 
+	    bottom: 0px; 
+	    height: 150px; 
+	    width: auto; 
+	}
+
+	.ini-img img {
+	    width: 100%;
+	    height: 100%;
+	}
+
+        .landing-text h1 {
+            font-size: 30px; 
+            color: #ff5722;
+            margin-bottom: 20px;
+        }
+
+        .landing-text h2 {
+            font-size: 18px; 
+            color: #fff;
+        }
+
+	.happy-clients {
+            width: 100%;
+            color: #fff;
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0px 20px;
+            font-size: 14px; 
+        }
+
+	.warn-group {
+	    color: red;
+	    font-size: 12px; 
+	}
+
+	.policy {
+	    flex-direction: column;
+	    justify-content: space-between; 
+	    align-items: center; 
+	    width: 100%; 
+	    margin: 20px;
+	}
+
+	.product-item1 {
+	    flex: 1 1 calc(33.33% - 20px);
+	    height: auto; 
+	    justify-content: center;
+	    align-items: center; 
+	    text-align: center;
+	    padding: 10px;
+	}
+
+	.container-review {
+	    width: 100%;
+	    align-items: center;
+	}
+
+	.review {
+            width: 90%;
+	    margin: 20px;
+        }
+
+	.product-item1 h2{
+	    font-size: 14px;
+	}
+	.product-item1 p{
+	    font-size: 12px;
+	}
+
+	.us11 h2 {
+	    font-size: 14px;
+	}
+
+	.us11 p {
+	    font-size: 12px;
+	}
+        .product-item p {
+	    font-size: 14px;
+        }
+
+	.inquiry-container p {
+	    font-size: 16px;
+        }
+
+	.form-group label{
+	    font-size: 14px;
+        }
+
+        .faq {
+            padding-left: 20px; 
+            padding-right: 20px; 
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #F4F4F4;
+            text-align: center;
+            width: 100%
+        }
+
+        table {
+            width: 100%;
+            padding: 20px; 
+            margin-bottom: 40px;
+            border-collapse: collapse;
         }
 
 
-
-
+}
 
     </style>
 </head>
 <body>
-
-<div class="flex initial-column">
-    <div class="social-media">
-        <a href="https://t.me/money_mine_uk" target="_blank">
-            <img src="notes.images\telegram.png" alt="Telegram">
-        </a>
-        <a href="https://www.facebook.com/money.mine.uk" target="_blank">
-            <img src="notes.images\facebook.png" alt="Facebook">
-        </a>
-        <a href="https://www.instagram.com/money_mine_uk?igsh=ejFjZDdsMnFrbjZs&utm_source=qr" target="_blank">
-            <img src="notes.images\instagram.png" alt="Instagram">
-        </a>
-	<a href="https://www.tiktok.com/@money_mine_uk?_r=1&_d=edk69b4f5mb134&sec_uid=MS4wLjABAAAAMbQrFgSQP3Wr6dC59CC1sYUjv9jYQmPXujJq6dB-lRRkZLdjlZl67tsxvwbIAuaj&share_author_id=7353701423870084128&sharer_language=en&source=h5_m&u_code=edckm4febkld25&timestamp=1721250998&user_id=7353701423870084128&sec_user_id=MS4wLjABAAAAMbQrFgSQP3Wr6dC59CC1sYUjv9jYQmPXujJq6dB-lRRkZLdjlZl67tsxvwbIAuaj&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7391314766412089121&share_link_id=0438bba0-f59e-4b21-8ae0-4c5a1d2f660c&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb0229&social_share_type=5&enable_checksum=1" target="_blank">
-            <img src="notes.images\tiktok.png" alt="Tiktok">
-        </a>
-	<a href="https://wa.link/jac99x" target="_blank">
-            <img src="notes.images\whatsapp.png" alt="WhatsApp">
-        </a>
-    </div>
-</div>
-
     <div class="container1 flex">
 <nav class="flex">
     <ul class="flex">
@@ -516,137 +728,139 @@ background-color: #f4f4f4;
     </div>
 
 <div id="home" class="section">
+    <div class="landing-text">
+	<div class="ini-img"><img src="notes.images\gg.png"></div>
 
-<div class="landing-text"><div class="landing-text-position">
-	<h1 style="color: red;">M💰NEY Mine</h1>
-	<p><h2>100% Undetectable Polymer Counterfiet Notes UK</h2><br>
-    	<b>Dropping, Collection & Postage Available</b>
-</div></div>
+        <div>
+            <h1>💰 MONEY Mine</h1>
+            <h2>100% Undetectable Polymer Counterfeit Notes UK</h2>
+        </div>
+    </div>
 
-<div class="happy-clients">
-<h4>Our Commitment To Excellence Is Reflected In The Satisfaction Of The Majority Of Our Clients Shown by Some Pictures Below</h4>    
-</div>
-
-<div class="scroll-container">
-    <div class="scroll-item">
-        <img src="notes.images\img1.jpeg" alt="Image 1">
+    <div class="happy-clients">
+        <h4>Our Commitment To Excellence Is Reflected In The Satisfaction Of The Majority Of Our Clients Shown by Some Pictures Below</h4>    
     </div>
-    <div class="scroll-item">
-        <img src="notes.images\img2.jpeg" alt="Image 2">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img8.jpeg" alt="Image 1">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img3.jpeg" alt="Image 2">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img4.jpeg" alt="Image 1">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img5.jpeg" alt="Image 2">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img6.jpeg" alt="Image 1">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img7.jpeg" alt="Image 2">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img12.jpeg" alt="Image 1">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img9.jpeg" alt="Image 2">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img10.jpeg" alt="Image 1">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img11.jpeg" alt="Image 2">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img24.jpg" alt="Image 1">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img14.jpeg" alt="Image 2">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img15.jpeg" alt="Image 1">
-    </div>
-    <div class="scroll-item">
-        <img src="notes.images\img16.jpg" alt="Image 2">
-    </div>
-</div>
 
 
+    <div class="scroll-container">
+        <div class="scroll-item">
+            <img src="notes.images\img1.jpeg" alt="counterfeit banknotes">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img2.jpeg" alt="fake pounds">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img8.jpeg" alt="buy counterfeit notes uk">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img3.jpeg" alt="50 pouns">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img4.jpeg" alt="10 pounds">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img5.jpeg" alt="king charles">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img6.jpeg" alt="buy fake pounds uk">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img7.jpeg" alt="prop notes">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img12.jpeg" alt="high quality counterfeit notes uk">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img9.jpeg" alt="UK pounds">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img10.jpeg" alt="glasgow">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img11.jpeg" alt="leicester">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img24.jpg" alt="london">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img14.jpeg" alt="corby">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img15.jpeg" alt="plymouth">
+        </div>
+        <div class="scroll-item">
+            <img src="notes.images\img16.jpg" alt="prince william">
+        </div>
+    </div>
 
-	<div class="container">
+    <div class="container">
         <div class="product">
-        
-	<div class="product-item">
-        <p style="text-align: left;">✅ Each bill has a unique serial number<br>✅ Our bills bypass all Counterfiet tests<br>✅ Notes can be spent anywhere</p>
-	<p style="text-align: center;"><b>Each Bill You Get From Us Is 100% Thesame As You'd Get Withdrawing Cash From Your Checking Account.</b><br><br><b>100% Guaranteed Delivery to any Address.</b></p>
+            <div class="product-item">
+                <p style="text-align: left;">✅ Each bill has a unique serial number<br>✅ Our bills bypass all Counterfiet tests<br>✅ Notes can be spent anywhere</p>
+                <p style="text-align: center;"><b>Each Bill You Get From Us Is 100% Thesame As You'd Get Withdrawing Cash From Your Checking Account.</b><br><br><b>100% Guaranteed Delivery to any Address.</b></p>
 
-	<div class="inquiry-container">
-		 <p style="color: red;"><b>Order Form</b></p>
+                <div class="inquiry-container">
+                    <p style="color: red;"><b>Order Form</b></p>
 
-	<form action="#" method="post">
-        <div class="form-group">
-            <input type="text" id="name" name="name" placeholder="Name" required oninput="updateNotes(0, 'Name:', this.value)">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Name" required oninput="updateNotes(0, 'Name:', this.value)">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="whatsapp" name="whatsapp" placeholder="WhatsApp Number" required oninput="updateNotes(1, 'WhatsApp Number:', this.value)">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="payment-method">Delivery address:</label>
+                            <input type="text" id="delivery-address" name="delivery-address" placeholder="Delivery Address" required oninput="updateNotes(2, 'Delivery Address:', this.value)">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="payment-method">Delivery Method:</label>
+                            <select id="delivery-method" name="delivery-method" required oninput="updateNotes(3, 'Delivery Method:', this.value)">
+                                <option value="postage">Postage</option>
+                                <option value="collection">Collection</option>
+                                <option value="drop">Drop</option>
+                            </select>
+                        </div>
+
+                        <div class="warn-group">
+                            <b>All First Deals are done on Postage.</b>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="price-list">Price List:</label>
+                            <select id="product" name="product" required oninput="updateNotes(4, 'Quantity:', this.value)">
+                                <option value="£500-£5,000"> £500 - £5,000 </option>
+                                <option value="£800-£9,000"> £800 - £9,000 </option>
+                                <option value="£900-£11,000"> £900 - £11,000 </option>
+                                <option value="£1,000-£13,000"> £1,000 - £13,000 (Best Seller)</option>
+                                <option value="£2,000-£25,000"> £2,000 - £25,000 + 🎁 </option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="payment-method">Payment Method:</label>
+                            <select id="payment-method" name="payment-method" required oninput="updateNotes(5, 'Payment Method:', this.value)">
+                                <option value="bitcoin">Bitcoin Payment</option>
+                                <option value="bank-transfer">Bank Transfer</option>
+                                <option value="paypal">Paypal</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group1">
+                            <textarea id="notes" name="notes" rows="6" placeholder="Order summary" readonly></textarea>
+                        </div>
+
+                        <button type="button" class="whatsapp-btn" onclick="generateWhatsAppLink()">📲 Send Order</button>
+                    </form>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div class="form-group">
-            <input type="tel" id="whatsapp" name="whatsapp" placeholder="WhatsApp Number" required oninput="updateNotes(1, 'WhatsApp Number:', this.value)">
-        </div>
-
-        <div class="form-group">
-	    <label for="payment-method">Delivery address:</label>
-            <input type="text" id="delivery-address" name="delivery-address" placeholder="Delivery Address" required oninput="updateNotes(2, 'Delivery Address:', this.value)">
-        </div>
-	
-	<div class="form-group">
-	<label for="payment-method">Delivery Method:</label>
-            <select id="delivery-method" name="delivery-method" required oninput="updateNotes(3, 'Delivery Method:', this.value)">
-                <option value="postage">Postage</option>
-                <option value="collection">Collection</option>
-		<option value="drop">Drop</option>
-            </select>
-        </div>
-	
-	<div class="warn-group">
-            <b>All First Deals are done on Postage. Drop & Collection starts from second deal.</b>
-        </div>
-
-        <div class="form-group">
-	<label for="price-list">Price List:</label>
-            <select id="product" name="product" required oninput="updateNotes(4, 'Quantity:', this.value)">
-                <option value="£200-£2,000"> £200 - £2,000 Testers </option>
-		<option value="£500-£5,000"> £500 - £5,000 </option>
-                <option value="£800-£9,000"> £800 - £9,000 </option>
-                <option value="£900-£11,000"> £900 - £11,000 </option>
-                <option value="£1,000-£13,000"> £1,000 - £13,000 </option>
-                <option value="£2,000-£25,000"> £2,000 - £25,000 + 🎁 </option>
-            </select>
-        </div>
-
-        <div class="form-group">
-	<label for="payment-method">Payment Method:</label>
-            <select id="payment-method" name="payment-method" required oninput="updateNotes(5, 'Payment Method:', this.value)">
-                <option value="bitcoin">Bitcoin Payment</option>
-                <option value="bank-transfer">Bank Transfer</option>
-		<option value="paypal">Paypal</option>
-            </select>
-        </div>
-
-        <div class="form-group1">
-            <textarea id="notes" name="notes" rows="6" placeholder="Order summary" readonly></textarea>
-        </div>
-
-	<button type="submit" class="whatsapp-btn" onclick="generateWhatsAppLink()">📲 Send Order</button>
-    </form>
-    </div></div></div></div>
-
-       <div class="policy">
+    <div class="policy">
         <div class="product-item1">
             <h2>Refund Policy</h2>
             <p>In the rare event that your order is not delivered within the stipulated delivery time mentioned, we offer full refund of your money within 24 Hours.</p>
@@ -663,19 +877,18 @@ background-color: #f4f4f4;
         </div>
     </div>
 
-<div class="us11">
-<h2>We Specialize In The Printing and Production of Top-Quality Undetectable Polymer Notes</h2>
-<p>Our Commitment Extends To A High Level Of Customer Satisfaction, Privacy, and a Transparent Refund Policy, Ensuring a Positive Experience For Our Clients.</p>
-</div>
-
-</div>
+    <div class="us11">
+        <h2>We Specialize In The Printing and Production of Top-Quality Undetectable Polymer Notes</h2>
+        <p>Our Commitment Extends To A High Level Of Customer Satisfaction, Privacy, and a Transparent Refund Policy, Ensuring a Positive Experience For Our Clients.</p>
+    </div>
 </div>
 
 
-<div id="about" class="section" style="display: none;">
+
+<div id="about" class="section"  style="display: none;">
 <div class="mid-topic"><h1>About Us</h1></div>
 <div class="about-us-form">
-<h2 style="color: red;">M💰NEY Mine</h2>
+<h2 style="color: red;">💰 MONEY Mine</h2>
 <p>We specialize in the printing and production of top-quality undetectable polymer Counterfiet bills, mainly <b>British Pounds</b> for over a decade now. We provide the best quality counterfiets money in and around the Uk.<br><br> 
 With over 10 years of experience in this network of currency business, we know your coming to this page is not accidental. We understand you have your different reasons for contacting us and wanting to get notes. We are a big network who equally deal in wholesale of Counterfiet Notes for retailers and equally permit people to print their money through Partnership deals. Our notes are carefully printed with each having a unique serial number and they bypass all counterfeit tests including UV light, pen tests and Counting Machines. Hence, our notes can be used anywhere for payments, deposits and others. <br><br>
 What sets us apart is not just our experience, but our unwavering commitment to customer trust and confidentiality. We understand the importance of discretion in our line of business and prioritize the privacy and security of our clients. <br><br>
@@ -690,52 +903,48 @@ We stand behind the quality of our products, and our refund policy reflects our 
 
 
 
-
-
-
-
 <div id="reviews" class="section" style="display: none;">
     <div class="mid-topic"><h1>Client Reviews</h1></div>
 
     <div class="scroll-container">
     <div class="scroll-item">
-        <img src="notes.images\img19.jpg" alt="Image 1">
+        <img src="notes.images\img19.jpg" alt="kier starmer">
     </div>
     <div class="scroll-item">
-        <img src="notes.images\img18.jpg" alt="Image 2">
+        <img src="notes.images\img18.jpg" alt="maya jama">
     </div>
     <div class="scroll-item">
-        <img src="notes.images\img21.jpg" alt="Image 1">
+        <img src="notes.images\img21.jpg" alt="counterfeit uk pounds">
     </div>
     <div class="scroll-item">
-        <img src="notes.images\img25.jpg" alt="Image 2">
+        <img src="notes.images\img25.jpg" alt="fake notes uk">
     </div>
     <div class="scroll-item">
-        <img src="notes.images\img17.jpg" alt="Image 1">
+        <img src="notes.images\img17.jpg" alt="fake bills uk">
     </div>
     <div class="scroll-item">
-        <img src="notes.images\img12.jpeg" alt="Image 2">
+        <img src="notes.images\img12.jpeg" alt="buy counterfeits notes uk">
     </div>
     <div class="scroll-item">
-        <img src="notes.images\img14.jpeg" alt="Image 1">
+        <img src="notes.images\img14.jpeg" alt="corby">
     </div>
     <div class="scroll-item">
-        <img src="notes.images\img24.jpg" alt="Image 2">
+        <img src="notes.images\img24.jpg" alt="daily mail uk">
     </div>
     <div class="scroll-item">
-        <img src="notes.images\img10.jpeg" alt="Image 1">
+        <img src="notes.images\img10.jpeg" alt="prince william uk">
     </div>
     <div class="scroll-item">
-        <img src="notes.images\img22.jpg" alt="Image 2">
+        <img src="notes.images\img22.jpg" alt="king charles uk">
     </div>
     <div class="scroll-item">
-        <img src="notes.images\img5.jpeg" alt="Image 1">
+        <img src="notes.images\img5.jpeg" alt="pounds">
     </div>
     <div class="scroll-item">
-        <img src="notes.images\img1.jpeg" alt="Image 2">
+        <img src="notes.images\img1.jpeg" alt="make money uk">
     </div>
     <div class="scroll-item">
-        <img src="notes.images\img7.jpeg" alt="Image 1">
+        <img src="notes.images\img7.jpeg" alt="UK bills">
     </div>
     <div class="scroll-item">
         <img src="notes.images\img9.jpeg" alt="Image 2">
@@ -814,13 +1023,6 @@ We stand behind the quality of our products, and our refund policy reflects our 
 <h2>Our Commitment To Excellence Is Reflected In The Satisfaction Of The Majority Of Our Clients.</h2><p>We strive to provide exceptional service, and we appreciate the feedback from our customers. Your positive experiences drive us to continually improve and deliver the best possible service to all our clients.</h2>
 </div>
 </div>
-
-
-
-
-
-
-
 
 
 
@@ -943,25 +1145,13 @@ We stand behind the quality of our products, and our refund policy reflects our 
 </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="flex final-column"><p><small>Copyright © 2024 | Counterfeit banknotes online</small></p></div>
+</div>
 
-    </div>
+
 
 <script>
 
-//used for working faqs
    function toggleAnswer(element) {
         const answerRow = element.parentNode.nextElementSibling;
         const plusMinus = element.querySelector('.plus-minus');
@@ -979,33 +1169,26 @@ We stand behind the quality of our products, and our refund policy reflects our 
 document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('nav a');
 
-    // Function to handle click on nav links
     function handleNavClick(clickedLink) {
-        // Remove active class from all nav links
         navLinks.forEach(link => {
             link.classList.remove('active');
         });
 
-        // Add active class to the clicked nav link
         clickedLink.classList.add('active');
 
-        // Hide all sections
         const sections = document.querySelectorAll('.section');
         sections.forEach(section => {
             section.style.display = 'none';
         });
 
-        // Get the section id to show
         const sectionId = clickedLink.getAttribute('href').substring(1); // Get section id without the '#'
         const section = document.getElementById(sectionId);
 
-        // Show the corresponding section
         if (section) {
             section.style.display = 'block';
         }
     }
 
-    // Event listener for navigation links
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
@@ -1013,7 +1196,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Show initial active section (Home)
     const initialSection = document.getElementById('home');
     if (initialSection) {
         initialSection.style.display = 'block';
@@ -1021,41 +1203,59 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 <script>
-        function updateNotes(lineIndex, label, value) {
-            const notesTextArea = document.getElementById('notes');
-            const lines = notesTextArea.value.split('\n');
+    function generateWhatsAppLink() {
+        const name = document.getElementById('name').value.trim();
+        const whatsapp = document.getElementById('whatsapp').value.trim();
+        const deliveryAddress = document.getElementById('delivery-address').value.trim();
+        const deliveryMethod = document.getElementById('delivery-method').value.trim();
+        const product = document.getElementById('product').value.trim();
+        const paymentMethod = document.getElementById('payment-method').value.trim();
+        const notes = document.getElementById('notes').value.trim();
 
-            // Update the specific line with the new content
-            lines[lineIndex] = `${label} ${value}`;
-
-            // Join the lines back together with a line break
-            const newText = lines.join('\n');
-
-            // Update the textarea with the new content
-            notesTextArea.value = newText;
+        if (!name) {
+            alert("Please fill in your Name.");
+            return;
+        }
+        if (!whatsapp) {
+            alert("Please fill in your WhatsApp Number.");
+            return;
+        }
+        if (!deliveryAddress) {
+            alert("Please fill in your Delivery Address.");
+            return;
+        }
+        if (!deliveryMethod) {
+            alert("Please select a Delivery Method.");
+            return;
+        }
+        if (!product) {
+            alert("Please select a Quantity.");
+            return;
+        }
+        if (!paymentMethod) {
+            alert("Please select a Payment Method.");
+            return;
         }
 
- function generateWhatsAppLink() {
-             const notesTextArea = document.getElementById('notes');
-            const notesText = notesTextArea.value;
+        const updatedNotes = `
+            Name: ${name}\n
+            WhatsApp Number: ${whatsapp}\n
+            Delivery Address: ${deliveryAddress}\n
+            Delivery Method: ${deliveryMethod}\n
+            Quantity: ${product}\n
+            Payment Method: ${paymentMethod}
+        `;
+        document.getElementById('notes').value = updatedNotes;
 
-            // Check if product and payment-method are not selected, use the first options
-            const productSelect = document.getElementById('product');
-            const paymentMethodSelect = document.getElementById('payment-method');
-            
-            const selectedProduct = productSelect.value || productSelect.options[0].value;
-            const selectedPaymentMethod = paymentMethodSelect.value || paymentMethodSelect.options[0].value;
+        const whatsappText = encodeURIComponent(updatedNotes);
+        const whatsappLink = `https://wa.me/447491591013?text=${whatsappText}`;
 
-            // Replace spaces with %20 in the text
-            const whatsappText = encodeURIComponent(`${notesText}\nQuantity: ${selectedProduct}\nPayment Method: ${selectedPaymentMethod}`);
-
-            // Generate the WhatsApp link with the specified number
-            const whatsappLink = `https://wa.me/447491591013?text=${whatsappText}`;
-
-            // Optionally, you can open the link in a new tab
-            window.open(whatsappLink, '_blank');
-        }
-    </script>
+	    window.open(whatsappLink, '_blank');
+    }
+</script>
+<a href="https://wa.me/1234567890" class="whatsapp-button1" target="_blank">
+    <img src="notes.images\WhatsApp_icon.png" alt="WhatsApp" class="whatsapp-icon1">
+</a>
 
 </body>
 </html>
